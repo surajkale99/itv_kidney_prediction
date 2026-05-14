@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/surajkale99/itv_kidney_prediction
+Author: surajkale99
+Author-email: surajkale99@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/surajkale99/itv_kidney_prediction/issues
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# itv_kidney_prediction
+
