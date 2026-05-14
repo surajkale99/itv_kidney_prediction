@@ -1,0 +1,6 @@
+[2026-05-14 09:12:21,465: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2026-05-14 09:12:21,471: INFO: comman: yaml file: params.yaml loaded successfully]
+[2026-05-14 09:12:21,473: INFO: comman: created directory at: artifacts]
+[2026-05-14 09:12:21,475: INFO: comman: created directory at: artifacts/data_ingestion]
+[2026-05-14 09:12:21,477: INFO: 3005579259: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-14 09:13:12,545: INFO: 3005579259: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
