@@ -4,3 +4,131 @@
 [2026-05-14 09:12:21,475: INFO: comman: created directory at: artifacts/data_ingestion]
 [2026-05-14 09:12:21,477: INFO: 3005579259: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
 [2026-05-14 09:13:12,545: INFO: 3005579259: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-15 08:28:52,937: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-05-15 08:28:52,956: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2026-05-15 08:28:52,984: INFO: comman: yaml file: params.yaml loaded successfully]
+[2026-05-15 08:28:52,984: INFO: comman: created directory at: artifacts]
+[2026-05-15 08:28:52,985: INFO: comman: created directory at: artifacts/data_ingestion]
+[2026-05-15 08:28:52,986: INFO: data_ingestion_component: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-15 08:29:19,761: INFO: data_ingestion_component: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-15 08:29:21,209: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-05-15 09:17:55,800: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-05-15 09:17:55,803: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2026-05-15 09:17:55,806: INFO: comman: yaml file: params.yaml loaded successfully]
+[2026-05-15 09:17:55,807: INFO: comman: created directory at: artifacts]
+[2026-05-15 09:17:55,808: INFO: comman: created directory at: artifacts/data_ingestion]
+[2026-05-15 09:17:55,809: INFO: data_ingestion_component: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-15 09:18:17,172: INFO: data_ingestion_component: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-15 09:18:18,780: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-05-15 09:18:18,780: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2026-05-15 09:18:18,782: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2026-05-15 09:18:18,785: INFO: comman: yaml file: params.yaml loaded successfully]
+[2026-05-15 09:18:18,786: INFO: comman: created directory at: artifacts]
+[2026-05-15 09:18:18,788: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2026-05-15 09:18:21,592: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-05-15 10:05:32,327: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-05-15 10:05:32,331: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2026-05-15 10:05:32,333: INFO: comman: yaml file: params.yaml loaded successfully]
+[2026-05-15 10:05:32,334: INFO: comman: created directory at: artifacts]
+[2026-05-15 10:05:32,335: INFO: comman: created directory at: artifacts/data_ingestion]
+[2026-05-15 10:05:32,336: INFO: data_ingestion_component: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-15 10:05:48,769: INFO: data_ingestion_component: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-15 10:05:49,895: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-05-15 10:05:49,896: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2026-05-15 10:05:49,898: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2026-05-15 10:05:49,903: INFO: comman: yaml file: params.yaml loaded successfully]
+[2026-05-15 10:05:49,905: INFO: comman: created directory at: artifacts]
+[2026-05-15 10:05:49,905: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2026-05-15 10:05:51,881: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-05-15 10:05:51,881: INFO: main: >>>>>> stage Model training started <<<<<<]
+[2026-05-15 10:05:51,890: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2026-05-15 10:05:51,895: INFO: comman: yaml file: params.yaml loaded successfully]
+[2026-05-15 10:05:51,897: INFO: comman: created directory at: artifacts]
+[2026-05-15 10:05:51,900: INFO: comman: created directory at: artifacts\training]
+[2026-05-15 10:08:45,853: INFO: main: >>>>>> stage Model training completed <<<<<<
+
+x==========x]
+[2026-05-16 08:50:17,066: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-05-16 08:50:17,080: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2026-05-16 08:50:17,116: INFO: comman: yaml file: params.yaml loaded successfully]
+[2026-05-16 08:50:17,122: INFO: comman: created directory at: artifacts]
+[2026-05-16 08:50:17,122: INFO: comman: created directory at: artifacts/data_ingestion]
+[2026-05-16 08:50:17,123: INFO: data_ingestion_component: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-16 08:51:18,496: INFO: data_ingestion_component: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2026-05-16 08:51:19,519: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-05-16 08:51:19,521: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2026-05-16 08:51:19,530: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2026-05-16 08:51:19,536: INFO: comman: yaml file: params.yaml loaded successfully]
+[2026-05-16 08:51:19,537: INFO: comman: created directory at: artifacts]
+[2026-05-16 08:51:19,540: INFO: comman: created directory at: artifacts/prepare_base_model]
+[2026-05-16 08:51:22,646: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2026-05-16 08:51:22,647: INFO: main: >>>>>> stage Model training started <<<<<<]
+[2026-05-16 08:51:22,654: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2026-05-16 08:51:22,658: INFO: comman: yaml file: params.yaml loaded successfully]
+[2026-05-16 08:51:22,661: INFO: comman: created directory at: artifacts]
+[2026-05-16 08:51:22,663: INFO: comman: created directory at: artifacts\training]
+[2026-05-16 08:53:52,029: INFO: main: >>>>>> stage Model training completed <<<<<<
+
+x==========x]
+[2026-05-16 08:53:52,031: INFO: main: >>>>>> stage Model evaluation started <<<<<<]
+[2026-05-16 08:53:52,037: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2026-05-16 08:53:52,041: INFO: comman: yaml file: params.yaml loaded successfully]
+[2026-05-16 08:53:52,042: INFO: comman: created directory at: artifacts]
+[2026-05-16 08:54:40,333: INFO: comman: json file saved at: scores.json]
+[2026-05-16 08:54:40,334: INFO: comman: json file saved at: scores.json]
+[2026-05-16 08:54:40,334: INFO: main: >>>>>> stage Model evaluation completed <<<<<<
+
+x==========x]
+[2026-05-16 08:56:54,585: INFO: main: >>>>>> stage Model evaluation started <<<<<<]
+[2026-05-16 08:56:54,589: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2026-05-16 08:56:54,591: INFO: comman: yaml file: params.yaml loaded successfully]
+[2026-05-16 08:56:54,592: INFO: comman: created directory at: artifacts]
+[2026-05-16 08:57:37,183: INFO: comman: json file saved at: scores.json]
+[2026-05-16 08:57:37,185: INFO: comman: json file saved at: scores.json]
+[2026-05-16 09:06:33,841: INFO: main: >>>>>> stage Model evaluation completed <<<<<<
+
+x==========x]
+[2026-05-16 09:08:37,413: INFO: main: >>>>>> stage Model evaluation started <<<<<<]
+[2026-05-16 09:08:37,417: INFO: comman: yaml file: config\config.yaml loaded successfully]
+[2026-05-16 09:08:37,428: INFO: comman: yaml file: params.yaml loaded successfully]
+[2026-05-16 09:08:37,429: INFO: comman: created directory at: artifacts]
+[2026-05-16 09:09:52,391: INFO: comman: json file saved at: scores.json]
+[2026-05-16 09:09:52,392: INFO: comman: json file saved at: scores.json]
+[2026-05-16 09:16:20,504: INFO: main: >>>>>> stage Model evaluation completed <<<<<<
+
+x==========x]
+[2026-05-16 09:39:03,170: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2026-05-16 09:39:03,171: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-05-16 09:39:03,174: INFO: _internal:  * Restarting with stat]
+[2026-05-16 09:39:11,668: WARNING: _internal:  * Debugger is active!]
+[2026-05-16 09:39:11,674: INFO: _internal:  * Debugger PIN: 370-500-963]
+[2026-05-16 09:40:29,493: INFO: _internal: 127.0.0.1 - - [16/May/2026 09:40:29] "GET / HTTP/1.1" 200 -]
+[2026-05-16 09:40:55,755: INFO: _internal: 127.0.0.1 - - [16/May/2026 09:40:55] "GET / HTTP/1.1" 200 -]
+[2026-05-16 09:41:28,871: INFO: _internal: 127.0.0.1 - - [16/May/2026 09:41:28] "GET / HTTP/1.1" 200 -]
+[2026-05-16 09:42:35,679: INFO: _internal: 127.0.0.1 - - [16/May/2026 09:42:35] "POST /predict HTTP/1.1" 200 -]
+[2026-05-16 09:43:01,623: INFO: _internal: 127.0.0.1 - - [16/May/2026 09:43:01] "POST /predict HTTP/1.1" 200 -]
+[2026-05-16 09:43:21,900: INFO: _internal: 127.0.0.1 - - [16/May/2026 09:43:21] "POST /predict HTTP/1.1" 200 -]
+[2026-05-16 09:44:03,519: INFO: _internal: 127.0.0.1 - - [16/May/2026 09:44:03] "POST /predict HTTP/1.1" 200 -]
+[2026-05-16 09:44:16,288: WARNING: polymorphic_function: 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000279FF2BC550> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2026-05-16 09:44:16,364: INFO: _internal: 127.0.0.1 - - [16/May/2026 09:44:16] "POST /predict HTTP/1.1" 200 -]
+[2026-05-16 09:44:33,954: WARNING: polymorphic_function: 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000279FF1C55A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.]
+[2026-05-16 09:44:40,428: INFO: _internal: 127.0.0.1 - - [16/May/2026 09:44:40] "POST /predict HTTP/1.1" 200 -]
+[2026-05-16 09:45:04,804: INFO: _internal: 127.0.0.1 - - [16/May/2026 09:45:04] "POST /predict HTTP/1.1" 200 -]
+[2026-05-16 09:45:18,985: INFO: _internal: 127.0.0.1 - - [16/May/2026 09:45:18] "POST /predict HTTP/1.1" 200 -]
+[2026-05-16 09:45:33,295: INFO: _internal: 127.0.0.1 - - [16/May/2026 09:45:33] "POST /predict HTTP/1.1" 200 -]
+[2026-05-16 09:45:46,254: INFO: _internal: 127.0.0.1 - - [16/May/2026 09:45:46] "POST /predict HTTP/1.1" 200 -]
