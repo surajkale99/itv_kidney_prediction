@@ -15,7 +15,8 @@ The project uses:
 - CNN (Convolutional Neural Network)
 - VGG16 Transfer Learning
 - Flask Deployment
-- Image Classification
+- MLflow Experiment Tracking
+- DagsHub Integration
 
 ---
 
@@ -26,6 +27,8 @@ The project uses:
 - Flask Web Application
 - Real-Time Prediction
 - Image Upload Functionality
+- MLflow Experiment Tracking
+- DagsHub Integration
 - Deep Learning Pipeline
 - User-Friendly Interface
 
@@ -42,6 +45,8 @@ The project uses:
 - HTML/CSS
 - VGG16
 - CNN
+- MLflow
+- DagsHub
 
 ---
 
@@ -66,6 +71,8 @@ itv_kidney_prediction/
 ├── artifacts/
 │   ├── model.h5
 │
+├── mlruns/
+│
 ├── static/
 │
 ├── templates/
@@ -83,8 +90,8 @@ itv_kidney_prediction/
 │
 ├── app.py
 ├── requirements.txt
-├── README.md
-└── setup.py
+├── setup.py
+└── README.md
 ```
 
 ---
@@ -120,6 +127,32 @@ The VGG16 pretrained architecture is used with custom CNN layers for classificat
 - Dense Layers
 - Dropout Layer
 - Output Layer
+
+---
+
+# 📈 MLflow Experiment Tracking
+
+This project uses **MLflow** to track:
+- Model Parameters
+- Accuracy Metrics
+- Training Experiments
+- Model Versions
+- Loss Curves
+
+MLflow helps monitor and compare multiple deep learning experiments efficiently.
+
+---
+
+# 🔗 DagsHub Integration
+
+The project is integrated with **DagsHub** for:
+- ML Experiment Tracking
+- Remote MLflow Server
+- Version Control
+- Collaboration
+- Model Management
+
+DagsHub provides an organized platform for managing Machine Learning workflows and experiments.
 
 ---
 
@@ -164,7 +197,21 @@ pip install -r requirements.txt
 
 ---
 
-## 4️⃣ Run Flask Application
+## 4️⃣ Run MLflow Tracking Server (Optional)
+
+```bash
+mlflow ui
+```
+
+MLflow UI will run at:
+
+```bash
+http://127.0.0.1:5000
+```
+
+---
+
+## 5️⃣ Run Flask Application
 
 ```bash
 python app.py
@@ -172,10 +219,10 @@ python app.py
 
 ---
 
-# 🖥️ Open in Browser
+# 🖥️ Open Flask App in Browser
 
 ```bash
-http://127.0.0.1:5000/
+http://127.0.0.1:8000/
 ```
 
 ---
